@@ -6,6 +6,7 @@ class Settings(BaseSettings):
 
     db_user: str
     db_password: str
+    db_name: str
 
 
 settings = Settings.model_validate({})
